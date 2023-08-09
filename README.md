@@ -1,6 +1,7 @@
 ## Small Weather Web App
 
-Weather API is missing for now
+Build with NextJS.
+Weather API is missing for now!
 
 ## Functions
 
