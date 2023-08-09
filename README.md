@@ -8,4 +8,4 @@ Weather API is missing for now
 - List the Weather
 - List the Weather for the next 7 days
 
-![Screenshot 2023-08-09 190051](https://github.com/lucabmn/weatherly/assets/65792217/62eb3706-3527-4758-a514-aef341b9e89d)
+![Screenshot 2023-08-09 190051](https://github.com/lucabmn/weatherly/assets/65792217/3ed02c11-de4f-496c-98f6-1b923f309fd8)
