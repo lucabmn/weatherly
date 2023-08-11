@@ -25,16 +25,18 @@ export default function WeatherListCard() {
     }, []);
 
     return (
-        <div className="absolute w-max left-50 top-60 grid grid-cols-7 pt-4 pb-4 gap-x-0 bg-gray-300 drop-shadow-lg rounded-md">
-            {weatherData.map((dayData) => (
-                <div
-                    className="flex flex-col items-center p-1 h-14"
-                    key={dayData.day}
-                >
-                    <span className="font-medium text-gray-700">{dayData.day}</span>
-                    <span className="font-medium text-gray-500">{dayData.temperature}</span>
-                </div>
-            ))}
+        <div className="w-full pt-10">
+            <div className="left-50 top-60 grid grid-cols-7 pt-4 pb-4 gap-x-0 bg-gray-300 drop-shadow-lg rounded-md">
+                {weatherData.map((dayData) => (
+                    <div
+                        className="flex flex-col items-center p-1 h-14"
+                        key={dayData.day}
+                    >
+                        <span className="w-10 font-medium text-gray-700">{dayData.day}</span>
+                        <span className="w-10 font-medium text-gray-500">{dayData.temperature}</span>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
